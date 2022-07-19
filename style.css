@@ -1,0 +1,165 @@
+/* Common CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* <i class="fa-solid fa-angle-right"></i>
+<i class="fa-solid fa-clock"></i>
+<i class="fa-solid fa-message"></i> */
+
+/* header section starts */
+#header{
+    background-color: #161616;
+    border-radius: 30px;
+    margin: 30px 100px;
+    display: flex;
+    align-items: center;
+}
+.header-title{
+    width: 50%;
+    padding: 60px 100px;
+}
+.header-title h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    line-height: 80px;
+}
+.header-title p{
+    font-size: 18px;
+    color: lightgray;
+    margin: 30px 0;
+}
+.header-title button{
+    background-color: #DD0000;
+    font-size: 20px;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 10px;
+}
+.arrow{
+    margin-left: 20px;
+}
+.header-image{
+    width: 50%;
+}
+.header-image img{
+    width: 100%;
+    padding: 40px 100px 0;
+}
+/* header section ends */
+
+/* main section starts */
+#main-section{
+    display: flex;
+    margin: 50px 100px;
+}
+.fixed-part{
+    width: 25%;
+    margin-right: 30px;
+}
+.group-stage{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr); 
+    background-color: #161616;
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.group-stage a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 10px;
+    color: #161616;
+    padding: 20px 40px;
+    margin: 20px 30px;
+    cursor: pointer;
+}
+.group-stage a:nth-child(3){
+    background-color: #DD0000;
+    color: white;
+}
+.flexible-part{
+    width: 75%;
+}
+.transfer-section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 30px;
+}
+.transfer{
+    width: 100%;
+    box-shadow: 5px 5px 25px rgba(187, 185, 185, 0.363);
+}
+.transfer-img img{
+    width: 100%;
+}
+.transfer-details{
+    padding: 20px 20px;
+}
+.transfer-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 15px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.transfer-details p{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+.transfer-details span {
+    margin-right: 30px;
+}
+/* main section starts */
+
+/* invisible section */
+.visible{
+    text-align: center;
+}
+.visible button{
+    background-color: #DD0000;
+    font-size: 20px;
+    padding: 20px 40px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.invisible{
+    display: none;
+}
+/* footer starts */
+footer{
+    width: 100%;
+    background-color: #161616;
+    height: 400px;
+    text-align: center;
+    margin-top: 100px;
+}
+footer h2{
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+footer hr{
+    margin: 30px 300px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.footer-menu a{
+    text-decoration: none;
+    color: #898989;
+    margin: 0 20px;
+}
+/* footer starts */
