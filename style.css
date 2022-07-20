@@ -10,7 +10,6 @@ body{
 
 /* header section starts */
 #header{
-    /* background-color: #161616; */
     background-color: #22223b;
     border-radius: 30px;
     margin: 30px 100px;
@@ -53,7 +52,6 @@ body{
 }
 .header-image img{
     width: 100%;
-    /* padding: 40px 100px 0; */
 }
 /* header section ends */
 
@@ -212,7 +210,9 @@ footer hr{
 }
 /* footer ends */
 
-/* responsive style */
+/*---------------
+ responsive style
+ ----------------- */
 
 /* for mobile device */
 @media only screen and (max-width: 576px) {
