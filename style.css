@@ -46,7 +46,7 @@ body{
 }
 .header-image img{
     width: 100%;
-    padding: 40px 100px 0;
+    /* padding: 40px 100px 0; */
 }
 /* header section ends */
 
@@ -94,6 +94,7 @@ body{
 }
 .transfer{
     width: 100%;
+    border-radius: 10px;
     box-shadow: 5px 5px 25px rgba(187, 185, 185, 0.363);
 }
 .transfer-img img{
@@ -159,4 +160,65 @@ footer hr{
     color: #898989;
     margin: 0 20px;
 }
-/* footer starts */
+/* footer ends */
+
+/* responsive style */
+
+/* for mobile device */
+@media only screen and (max-width: 576px) {
+    
+}
+
+/* for tablet device */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    #header{
+        padding: 20px;
+    }
+    .header-title{
+        padding: 30px 10px;
+    }
+    .header-image img{
+        width: 100%;
+    }
+    .header-title h1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .header-title p{
+        font-size: 15px;
+    }
+    .header-title button{
+        font-size: 15px;
+        padding: 15px 30px;
+    }
+    #main-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .fixed-part{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .group-stage{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: #FFFFFF;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .group-stage a{
+        width: 100%;
+        border: 1px solid rgba(155, 153, 153, 0.616);
+        padding: 15px 5px;
+        margin: 10px;
+    }
+    .transfer-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .invisible{
+        display: block;
+    }
+}
