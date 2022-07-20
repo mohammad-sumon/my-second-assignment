@@ -122,6 +122,45 @@ body{
 }
 /* main section starts */
 
+/* match section starts */
+.match-section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 30px;
+}
+.match{
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(209, 206, 206, 0.534);
+    box-shadow: 5px 5px 25px rgba(187, 185, 185, 0.363);
+}
+.match-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.match-img p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 40px;
+}
+.match-info{
+    text-align: center;
+}
+.match-info h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.match-info h4{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+/* match section ends */
+
 /* invisible section */
 .visible{
     text-align: center;
@@ -226,14 +265,14 @@ footer hr{
         margin: 20px 0;
         padding: 20px;
     }
-    .transfer-section{
+    .transfer-section, .match-section{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
         width: 100%;
         margin: 20px 0;
     }
-    .transfer{
+    .transfer, .match{
         width: 100%;
         margin: 0 auto;
     }
@@ -301,7 +340,7 @@ footer hr{
         padding: 15px 5px;
         margin: 10px;
     }
-    .transfer-section{
+    .transfer-section, .match-section{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
